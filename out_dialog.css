@@ -1,0 +1,82 @@
+#mzy_show_message_div {
+    position: absolute;
+    z-index: 9999;
+    width: 372px;
+    height: 63px;
+    text-align: center;
+    background-image: url('message_bg.png');
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 63px;
+}
+
+#mzy_show_dialog_div_close {
+    color: #ff0000;
+}
+
+#mzy_show_dialog_div {
+    padding: 10px;
+    border: 8px solid #eeeeee;
+    display: none;
+    z-index: 9999;
+    background-color: #ffffff;
+    text-align: left;
+    left: 50%;
+    top: 50%;
+    position: fixed !important;
+    /* FF IE7*/
+    position: absolute;
+    /*IE6*/
+    _top: expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ? documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :
+            /*IE6*/
+            document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);
+    /*IE5 IE5.5*/
+
+}
+
+#greybackground {
+    background: #000;
+    display: block;
+    z-index: 100;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+#mzy_show_dialog2_div_close {
+    color: #ff0000;
+}
+
+#mzy_show_dialog2_div {
+    padding: 10px;
+    border: 8px solid #eeeeee;
+    display: none;
+    z-index: 99999;
+    background-color: #ffffff;
+    text-align: left;
+    left: 50%;
+    top: 50%;
+    position: fixed !important;
+    /* FF IE7*/
+    position: absolute;
+    /*IE6*/
+    _top: expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ? documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :
+            /*IE6*/
+            document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);
+    /*IE5 IE5.5*/
+
+}
+
+#greybackground2 {
+    background: #000;
+    display: block;
+    z-index: 99998;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
